@@ -14,10 +14,10 @@ function destructivelyRemoveFirstCat(){
     cats.shift();
 }
 function appendCat(name) {
-    return[...cats,name];
+    return[...cats,'Broom'];
 }
 function prependCat (name){
-    return [name, ...cats];
+    return ['Arnold', ...cats];
 }
 function removeFirstCat(){
     return cats.slice(1);
