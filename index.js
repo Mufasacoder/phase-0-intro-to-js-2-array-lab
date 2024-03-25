@@ -6,6 +6,10 @@ function destructivelyAppendCat (name) {
 }
 function destructivelyPrependCat (name) {
     cats.unshift("Bob");
+    cats.push(name);
+}
+function destructivelyPrependCat (name) {
+    cats.unshift(name);
 }
 function destructivelyRemoveLastCat (){
     cats.pop();
